@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ciro_tablosu {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.ciro_tablosu h2 {
+    color: darkred;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.ciro_tablosu .date {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.ciro_tablosu table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ciro_tablosu td {
+    padding: 8px 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.ciro_tablosu tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.ciro_tablosu td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+.ciro_tablosu td:last-child {
+    text-align: right;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #c21f1f;
+}
+
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.button-container {
+    margin-bottom: 10px;
+}
+
+.button-container button {
+    background-color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 80px;
+}
+
+.button-container button:hover {
+    background-color: #d0d0d0;
+    border: 1px solid #ccc;
+}
+
+/* Tarih seçme alanı */
+.date-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date-input-container input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.date-input-container button {
+    background-color: #00b400;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.date-input-container button:hover {
+    background-color: #009d00;
+}
+
+/* Önceki ve sonraki gün butonları */
+.nav-buttons {
+    margin-bottom: 20px;
+}
+
+.nav-buttons button {
+    background-color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color:#ddd;
+    border: 1px solid #ccc;
+}
